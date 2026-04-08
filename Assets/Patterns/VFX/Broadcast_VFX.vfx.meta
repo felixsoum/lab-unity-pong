@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fa232467b33db465893410ddc13fe2ef
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/VFX/Broadcast_VFX.vfx
+  uploadId: 771498

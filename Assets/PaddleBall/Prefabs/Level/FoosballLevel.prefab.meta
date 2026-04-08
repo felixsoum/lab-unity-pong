@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60fd6325bbafe4b02bd575a14387b2f0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/PaddleBall/Prefabs/Level/FoosballLevel.prefab
+  uploadId: 771498

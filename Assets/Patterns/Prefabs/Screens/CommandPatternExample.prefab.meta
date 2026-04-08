@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c544472464add4e12b84c464db15458e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Prefabs/Screens/CommandPatternExample.prefab
+  uploadId: 771498

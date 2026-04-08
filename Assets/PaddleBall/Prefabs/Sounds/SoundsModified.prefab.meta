@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eebc9f9dbcfe447ccac50129ff9eb682
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/PaddleBall/Prefabs/Sounds/SoundsModified.prefab
+  uploadId: 771498

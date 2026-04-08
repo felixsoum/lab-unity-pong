@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8c9cfa26abfee488c85f1582747f6a02
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/PaddleBall/Scenes/PaddleBallClassic_Scene.unity
+  uploadId: 771498

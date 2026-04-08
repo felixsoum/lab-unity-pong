@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a64ae3b1ed8842f7be15a68a70b67ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Data/CommandPattern/PaddleLabelMove_SO.asset
+  uploadId: 771498

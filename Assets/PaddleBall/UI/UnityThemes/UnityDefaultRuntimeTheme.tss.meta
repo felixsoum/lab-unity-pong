@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d051138280d924aa29646f9671d2c985
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 12388, guid: 0000000000000000e000000000000000, type: 0}
+  disableValidation: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/PaddleBall/UI/UnityThemes/UnityDefaultRuntimeTheme.tss
+  uploadId: 771498

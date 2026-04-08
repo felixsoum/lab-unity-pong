@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af80941434ad44a6684ce10279170396
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/PaddleBall/Prefabs/Cameras/MainCamera.prefab
+  uploadId: 771498

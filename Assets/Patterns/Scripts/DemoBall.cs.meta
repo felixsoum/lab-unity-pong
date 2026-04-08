@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7de8cf512e9ac4fa9aecffe687fe196c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Scripts/DemoBall.cs
+  uploadId: 771498

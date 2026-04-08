@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef4396504d8714861af3cc6ebc97ca28
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Prefabs/EnumPrefab.prefab
+  uploadId: 771498

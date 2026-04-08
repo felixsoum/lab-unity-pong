@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ccc296dad8d7345cf89df8035f607ad3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Prefabs/RuntimeSetsPrefab.prefab
+  uploadId: 771498

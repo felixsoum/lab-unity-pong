@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cceba6d2590f94f5f94dcae23514c8a9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Prefabs/Cameras/EventChannelsCamera.prefab
+  uploadId: 771498

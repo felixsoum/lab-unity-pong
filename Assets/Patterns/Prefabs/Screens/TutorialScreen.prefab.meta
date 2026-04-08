@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e38e635fb27d14499a849298c771e733
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Prefabs/Screens/TutorialScreen.prefab
+  uploadId: 771498

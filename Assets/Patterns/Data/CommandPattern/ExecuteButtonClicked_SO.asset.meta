@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2b55e6bfe3024ff98aec201819673cd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Data/CommandPattern/ExecuteButtonClicked_SO.asset
+  uploadId: 771498

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 926b153598db04c94b7902428d7a71ce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/PaddleBall/Data/AudioDelegate/BeepHighPitched_SO.asset
+  uploadId: 771498

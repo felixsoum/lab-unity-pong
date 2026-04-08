@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5213a01a9c8b44e828ff52844659386c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Data/TutorialEventChannels_Data.asset
+  uploadId: 771498

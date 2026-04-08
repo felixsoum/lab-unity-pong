@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f3c95aea7828549b1b313c43d6054f0b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Data/CommandPattern/StartGamePlay_SO.asset
+  uploadId: 771498

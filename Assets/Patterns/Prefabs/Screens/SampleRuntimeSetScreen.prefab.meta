@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 34d5e1d14224f463f96468b4b0e9fbe7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Prefabs/Screens/SampleRuntimeSetScreen.prefab
+  uploadId: 771498

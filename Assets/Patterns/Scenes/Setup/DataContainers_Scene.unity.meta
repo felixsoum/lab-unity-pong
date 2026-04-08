@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec7f4cf78223a42759ada134eee25efe
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/Scenes/Setup/DataContainers_Scene.unity
+  uploadId: 771498

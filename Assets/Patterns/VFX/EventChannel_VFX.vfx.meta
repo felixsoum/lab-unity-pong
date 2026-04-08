@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7520d4bed7536457ba09ab8d9acba532
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: ScriptableObjects Paddle Ball project
+  packageVersion: 1.1
+  assetPath: Assets/Patterns/VFX/EventChannel_VFX.vfx
+  uploadId: 771498
