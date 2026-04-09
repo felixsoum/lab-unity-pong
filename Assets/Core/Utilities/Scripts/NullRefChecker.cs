@@ -12,10 +12,16 @@ namespace GameSystemsCookbook
 
     public static class NullRefChecker
     {
+        // Allows tests to suppress validation during ScriptableObject.CreateInstance
+        public static bool SuppressValidation { get; set; }
+
         // Note: instance is not always a MonoBehaviour
 
         public static void Validate(object instance)
         {
+            if (SuppressValidation)
+                return;
+
             // Cache all non-static fields both public and private
             FieldInfo[] fields = instance.GetType().GetFields(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
 

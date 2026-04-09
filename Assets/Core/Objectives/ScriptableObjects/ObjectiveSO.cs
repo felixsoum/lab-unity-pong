@@ -55,7 +55,8 @@ namespace GameSystemsCookbook
         protected virtual void CompleteObjective()
         {
             m_IsCompleted = true;
-            m_ObjectiveCompleted.RaiseEvent();
+            if (m_ObjectiveCompleted != null)
+                m_ObjectiveCompleted.RaiseEvent();
         }
  
         public void ResetObjective()
