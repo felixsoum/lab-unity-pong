@@ -25,11 +25,21 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         public event UnityAction<float> P2Moved = delegate { };
         public event UnityAction GameRestarted = delegate { };
 
+        // When true, keyboard input for Player 2 is ignored (AI controls P2)
+        public bool IsP2AIControlled { get; set; }
+
+        // Allows external systems (e.g. AI) to feed input through the P2 pipeline
+        public void SimulateP2Input(float value)
+        {
+            P2Moved.Invoke(value);
+        }
+
         // This creates a new PaddleBallControls instance and enables the GamePlayActions from
         // the Input System. The event-handling methods can then subscribe to the MoveP1
         // and MoveP2 events from the InputActions and also listen for game restarts.
         private void OnEnable()
         {
+            IsP2AIControlled = false;
             m_PaddleBallControls = new PaddleBallControls();
             m_PaddleBallControls.Gameplay.Enable();
             m_PaddleBallControls.Gameplay.SetCallbacks(this);
@@ -72,6 +82,9 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         // Invoke the P2Moved event when receiving non-zero input from Player2.
         public void OnMoveP2(InputAction.CallbackContext context)
         {
+            if (IsP2AIControlled)
+                return;
+
             // pass the axis value or 0
             if (m_MoveP2.WasPerformedThisFrame())
             {

@@ -24,4 +24,5 @@ MonoBehaviour:
   m_Player2: {fileID: 11400000, guid: 49c406a500c7f4e058b0f29e2600386a, type: 2}
   m_P1Sprite: {fileID: 21300000, guid: d107f36d7f9964863b11c6f879a1a588, type: 3}
   m_P2Sprite: {fileID: 21300000, guid: d107f36d7f9964863b11c6f879a1a588, type: 3}
+  m_AIPaddleSettings: {fileID: 11400000, guid: adc8e40e10e57f14685ad9d4f7d1c09e, type: 2}
   m_LevelLayout: {fileID: 11400000, guid: 54cf8d6cda4624893a6033d17b693ca2, type: 2}

@@ -38,6 +38,10 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         [Tooltip("Optional sprite for Player 2")]
         [SerializeField, Optional] private Sprite m_P2Sprite;
 
+        [Header("AI Settings")]
+        [Tooltip("AI paddle configuration. Assign to enable single-player mode")]
+        [SerializeField, Optional] private AIPaddleSettingsSO m_AIPaddleSettings;
+
         [Header("Level Layout")]
         [Tooltip("ScriptableObject defining start positions for players and game pieces")]
         [SerializeField] private LevelLayoutSO m_LevelLayout;
@@ -56,6 +60,8 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         public LevelLayoutSO LevelLayout => m_LevelLayout;
         public Sprite P1Sprite => m_P1Sprite;
         public Sprite P2Sprite => m_P2Sprite;
+        public AIPaddleSettingsSO AIPaddleSettings => m_AIPaddleSettings;
+        public bool IsAIEnabled => m_AIPaddleSettings != null;
 
 
         public bool IsPlayer1(PlayerIDSO id)

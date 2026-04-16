@@ -71,3 +71,6 @@ Thumbs.db
 # Test artifacts
 test-log.txt
 test-results.xml
+
+# Claude Code local settings
+.claude/settings.local.json

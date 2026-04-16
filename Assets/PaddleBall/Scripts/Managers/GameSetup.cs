@@ -115,6 +115,13 @@ namespace GameSystemsCookbook.Demos.PaddleBall
             SetPaddleSprite(p2, m_GameData.P2Sprite);
             p2.transform.Rotate(0f, 0f, 180f);
 
+            if (m_GameData.IsAIEnabled)
+            {
+                m_InputReader.IsP2AIControlled = true;
+                AIPaddleController aiController = p2.gameObject.AddComponent<AIPaddleController>();
+                aiController.Initialize(m_GameData.AIPaddleSettings, m_InputReader);
+            }
+
             CreateWalls();
             CreateGoals(m_GameData);
         }
