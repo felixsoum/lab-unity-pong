@@ -30,6 +30,25 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         private bool m_IsGameOver;
         private Vector2 m_BounceVector;
 
+        public bool IsExtra { get; set; }
+        public Paddle LastHitter { get; private set; }
+        public void NotifyPaddleHit(Paddle paddle) { LastHitter = paddle; }
+
+        public void SetSpeedMultiplier(float multiplier)
+        {
+            if (multiplier <= 0f) return;
+            m_Rigidbody.linearVelocity *= multiplier;
+        }
+
+        public void LaunchRandom()
+        {
+            float xDirection = (Random.value > 0.5f ? -1f : 1f);
+            float yDirection = Random.value > 0.5f ? Random.Range(-1f, -0.5f) : Random.Range(0.5f, 1f);
+            Vector2 dir = new Vector2(xDirection, yDirection);
+            m_SpriteRenderer.enabled = true;
+            m_Rigidbody.AddForce(m_GameData.BallSpeed * dir);
+        }
+
         // MonoBehaviour event-functions
 
         // Caches the SpriteRenderer and Rigidbody2D
@@ -101,6 +120,12 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         // Re-serve the ball after a point is scored
         private void ResetServe(PlayerIDSO player)
         {
+            if (IsExtra)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
             if (!m_IsGameOver)
                 StartCoroutine(ServeAfterDelay());
         }

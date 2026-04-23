@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1626375917170895143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3905896306710606464}
+  - component: {fileID: 2596380901627844251}
+  - component: {fileID: 7871076087584012330}
+  m_Layer: 0
+  m_Name: PowerUpSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3905896306710606464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626375917170895143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2596380901627844251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626375917170895143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa79ca0768574d40ba17803b2a6ac2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PaddleBall::GameSystemsCookbook.Demos.PaddleBall.PowerUpSpawner
+  m_GameStarted: {fileID: 11400000, guid: 670d67013852d4bdba7ee978b4bec426, type: 2}
+  m_GameOver: {fileID: 11400000, guid: c167ff09e57c84f6e9b7fd34e0591efc, type: 2}
+  m_PowerUpCollected: {fileID: 11400000, guid: acbbfbd5f21a8294cb28408073061afd, type: 2}
+  m_PowerUps:
+  - {fileID: 11400000, guid: 8793ad8f3fa460b439aecda8fa78471c, type: 2}
+  - {fileID: 11400000, guid: faaf3f19aa9973f46986dbb7c1fcc6b7, type: 2}
+  - {fileID: 11400000, guid: bfdb9dd59056ceb4fa4de4fa74f6022d, type: 2}
+  - {fileID: 11400000, guid: 516e88b6b46df4e47b3684b6533cb79f, type: 2}
+  m_PickupPrefab: {fileID: 8803714795771473319, guid: a721d020d4293e44c800269161b66aa9, type: 3}
+  m_SpawnIntervalRange: {x: 8, y: 12}
+  m_PickupLifetime: 6
+  m_SpawnXRange: {x: -6, y: 6}
+  m_SpawnYRange: {x: -3, y: 3}
+--- !u!114 &7871076087584012330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626375917170895143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19f5c9f984eb4b4981430a509b6d907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PaddleBall::GameSystemsCookbook.Demos.PaddleBall.PowerUpManager
+  m_Collected: {fileID: 11400000, guid: acbbfbd5f21a8294cb28408073061afd, type: 2}
+  m_GameOver: {fileID: 11400000, guid: c167ff09e57c84f6e9b7fd34e0591efc, type: 2}
+  m_Activated: {fileID: 11400000, guid: 5331934c886be4042b8aa8499c4c8685, type: 2}
+  m_Expired: {fileID: 11400000, guid: 75bea85847d231f4eb6b6d7944e04a22, type: 2}

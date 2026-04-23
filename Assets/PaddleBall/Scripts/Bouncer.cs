@@ -25,11 +25,17 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         private void OnCollisionEnter2D(Collision2D collision)
         {
 
-            if (collision.collider.GetComponent<Ball>() != null)
+            Ball hitBall = collision.collider.GetComponent<Ball>();
+            if (hitBall != null)
             {
                 // Reverse the normal direction and pass with the event
                 Vector3 normalDirection = collision.GetContact(0).normal;
                 m_BallCollided.RaiseEvent(-normalDirection);
+
+                // If this bouncer lives on a paddle, record it as the last hitter.
+                Paddle paddle = GetComponentInParent<Paddle>();
+                if (paddle != null)
+                    hitBall.NotifyPaddleHit(paddle);
 
                 if (m_SoundPlayed != null)
                     m_SoundPlayed.RaiseEvent(collision.GetContact(0).point);

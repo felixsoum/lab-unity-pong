@@ -28,6 +28,16 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         private Vector2 m_inputVector;
         private PlayerIDSO m_playerId;
         private GameDataSO m_gameData;
+        private float m_ScaleMultiplier = 1f;
+
+        public PlayerIDSO PlayerID => m_playerId;
+
+        public void ApplyScaleMultiplier(float factor)
+        {
+            if (factor <= 0f) return;
+            m_ScaleMultiplier *= factor;
+            transform.localScale *= factor;
+        }
 
 
         // Cache the physics Rigidbody

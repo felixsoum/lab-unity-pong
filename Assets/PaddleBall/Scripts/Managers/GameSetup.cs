@@ -34,6 +34,8 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         [SerializeField] private GameObject m_WallPrefab;
         [Tooltip("Prefab for setting up level goals")]
         [SerializeField] private ScoreGoal m_GoalPrefab;
+        [Tooltip("Optional power-up system prefab (holds PowerUpSpawner + PowerUpManager)")]
+        [SerializeField, Optional] private GameObject m_PowerUpSystemPrefab;
 
         [Header("Level Data")]
         [Tooltip("Use ScriptableObject or Json file")]
@@ -106,7 +108,7 @@ namespace GameSystemsCookbook.Demos.PaddleBall
         // Create the ball, paddles, walls, and goals.
         public void SetupLevel()
         {
-            CreateBall();
+            Ball ball = CreateBall();
 
             Paddle p1 = CreatePaddle(m_InputReader, m_GameData.Player1);
             SetPaddleSprite(p1, m_GameData.P1Sprite);
@@ -124,6 +126,17 @@ namespace GameSystemsCookbook.Demos.PaddleBall
 
             CreateWalls();
             CreateGoals(m_GameData);
+            CreatePowerUpSystem(ball, p1, p2);
+        }
+
+        private void CreatePowerUpSystem(Ball ball, Paddle p1, Paddle p2)
+        {
+            if (m_PowerUpSystemPrefab == null) return;
+
+            GameObject system = Instantiate(m_PowerUpSystemPrefab);
+            PowerUpManager manager = system.GetComponentInChildren<PowerUpManager>();
+            if (manager != null)
+                manager.Initialize(ball, m_BallPrefab, p1, p2, m_GameData);
         }
 
         private void SetPaddleSprite(Paddle paddle, Sprite sprite)
